@@ -28,12 +28,12 @@ Hệ thống được thiết kế theo hướng đối tượng chặt chẽ. D
 
 ## 🕹️ Cơ chế trò chơi (Gameplay Mechanics)
 
-### 1. Thanh đỡ (Paddle)
+### Thanh đỡ (Paddle)
 *   **Kích thước linh hoạt:** Có 3 mức độ (Ngắn, Chuẩn, Mở rộng)[cite: 1]. Việc co giãn dựa trên tâm paddle giúp loại bỏ hiện tượng giật màn hình[cite: 1].
 *   **Vũ khí trang bị:** Nhận năng lượng từ `Shot power-up` để bắn đạn phá gạch trực tiếp[cite: 1].
 *   **Giới hạn di chuyển:** Hoạt động hoàn toàn trong biên bản đồ, tốc độ thay đổi linh hoạt tùy theo các bổ trợ nhận được[cite: 1].
 
-### 2. Quả bóng (Ball)
+### Quả bóng (Ball)
 *   **Vật lý phản xạ:** Hướng bóng nảy ra phụ thuộc trực tiếp vào vị trí va chạm trên thanh đỡ, giúp người chơi chủ động điều hướng bóng[cite: 1].
 *   **Gia tốc thông minh:** Bóng tăng nhẹ tốc độ sau mỗi lần va chạm để tạo độ kịch tính, nhưng luôn giới hạn ở mức kiểm soát được[cite: 1].
 *   **Sửa lỗi kẹt góc:** Tự động hiệu chỉnh các góc đặc biệt (0° hoặc 90°) để tránh tình trạng bóng nảy vô tận[cite: 1].
